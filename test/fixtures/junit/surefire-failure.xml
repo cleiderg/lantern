@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shape of a Maven Surefire report with one failure, one error and one rerun flake. -->
+<testsuite name="org.example.PetControllerTests" time="0.512" tests="4" errors="1" skipped="0" failures="1" flakes="1">
+  <testcase name="initCreationForm" classname="org.example.PetControllerTests" time="0.041"/>
+  <testcase name="initCreationFormWithUnknownOwner" classname="org.example.PetControllerTests" time="0.052">
+    <failure message="Status expected:&lt;404&gt; but was:&lt;500&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<404> but was:<500>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.example.PetControllerTests.initCreationFormWithUnknownOwner(PetControllerTests.java:121)
+]]></failure>
+  </testcase>
+  <testcase name="processUpdateForm" classname="org.example.PetControllerTests" time="0.030">
+    <error message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused &amp; gave up</error>
+  </testcase>
+  <testcase name="showPet" classname="org.example.PetControllerTests" time="0.077">
+    <flakyFailure message="timed out after 50 ms" type="java.util.concurrent.TimeoutException"><![CDATA[java.util.concurrent.TimeoutException: timed out after 50 ms]]></flakyFailure>
+  </testcase>
+</testsuite>

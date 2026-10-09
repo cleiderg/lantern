@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="org.springframework.samples.petclinic.MySqlIntegrationTests" time="0.001" tests="2" errors="0" skipped="2" failures="0" flakes="0">
+  <testcase name="findAll" classname="org.springframework.samples.petclinic.MySqlIntegrationTests" time="0.0">
+    <skipped message="disabledWithoutDocker is true and Docker is not available"/>
+    
+  </testcase>
+  <testcase name="ownerDetails" classname="org.springframework.samples.petclinic.MySqlIntegrationTests" time="0.0">
+    <skipped message="disabledWithoutDocker is true and Docker is not available"/>
+  </testcase>
+</testsuite>

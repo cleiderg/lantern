@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="1" errors="0" time="0.812">
+  <testsuite name="sum" errors="0" failures="1" skipped="0" timestamp="2026-10-04T10:00:00" time="0.21" tests="2">
+    <testcase classname="sum adds two numbers" name="sum adds two numbers" time="0.003">
+    </testcase>
+    <testcase classname="sum handles an empty list" name="sum handles an empty list" time="0.004">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: undefined
+    at Object.&lt;anonymous&gt; (/repo/sum.test.js:8:20)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

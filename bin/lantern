@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+// Entry shim. Kept extensionless so `lantern` / `bin/lantern` is directly runnable.
+// All logic lives in src/cli.ts, run as TypeScript by Node itself (type
+// stripping) — there is no build step. That needs a recent Node, so check it
+// first, before the import that would fail with a confusing error.
+const [major] = process.versions.node.split('.').map(Number);
+if (major < 24) {
+  process.stderr.write(
+    `lantern: needs Node 24 or later (this is ${process.version}) — https://nodejs.org\n`,
+  );
+  process.exit(1);
+}
+const { run } = await import('../src/cli.ts');
+
+process.exitCode = run(process.argv.slice(2));

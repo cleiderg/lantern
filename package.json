@@ -1,0 +1,36 @@
+{
+  "name": "lantern",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local heartbeat orchestrator: a daemon that wakes on a schedule, runs a standing checklist, files and staffs work in a SQLite ticket ledger it owns, and escalates to a human only what needs a decision.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cleiderg/lantern.git"
+  },
+  "type": "module",
+  "bin": {
+    "lantern": "bin/lantern"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node bin/lantern",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit",
+    "eval:priorart": "node scripts/eval-priorart.ts",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "ui:smoke": "node scripts/ui-smoke.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.9",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}

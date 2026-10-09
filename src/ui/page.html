@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lantern</title>
+<link rel="icon" id="favicon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="app.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<button id="skip" class="skip" type="button">Skip to content</button>
+<div class="app">
+  <aside class="sidebar">
+    <a class="brand" href="#status"><span class="logo" aria-hidden="true"></span><span>Lantern</span></a>
+    <nav id="tabs" aria-label="Views"></nav>
+    <div class="sidebar-foot" id="sidebar-foot"></div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1 id="page-title">Overview</h1>
+      <div class="topbar-right" id="topbar"></div>
+    </header>
+    <div id="offline" class="banner banner-error" role="status" hidden>Reconnecting to <code>lantern ui</code>… changes will appear when it is back.</div>
+    <div id="banner" class="banner banner-warn" hidden></div>
+    <div id="error" class="banner banner-error" role="alert" hidden></div>
+    <main id="view" aria-labelledby="page-title" tabindex="-1"></main>
+  </div>
+</div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+</body>
+</html>

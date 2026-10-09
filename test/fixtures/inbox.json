@@ -1,0 +1,34 @@
+[
+  {
+    "id": "msg-bug-001@example.com",
+    "from": "user@example.com",
+    "subject": "App crashes when exporting data",
+    "body": "Hello,\n\nYour app crashes every time I try to export my data. I see the error:\n'Export failed: internal server error'\n\nThis happens on macOS 14.2 with the latest version.\n\nSteps to reproduce:\n1. Open the app\n2. Click Export\n3. Select CSV format\n4. App crashes\n\nPlease fix this soon, it's blocking my workflow.\n\nThanks",
+    "date": "2026-09-07T08:00:00Z",
+    "thread_id": "thread-export-crash"
+  },
+  {
+    "id": "msg-thanks-001@example.com",
+    "from": "happy@example.com",
+    "subject": "Love your product!",
+    "body": "Hi,\n\nI just wanted to say thank you for the amazing product. It has completely transformed how I work. Keep up the great work!\n\nBest regards",
+    "date": "2026-09-07T08:05:00Z",
+    "thread_id": "thread-thanks"
+  },
+  {
+    "id": "msg-feature-001@example.com",
+    "from": "dev@example.com",
+    "subject": "Feature request: dark mode support",
+    "body": "Hi team,\n\nIt would be great to have a dark mode option in the app. Many of us work late and the bright interface can be straining.\n\nWould love to see this in a future release.\n\nThanks",
+    "date": "2026-09-07T08:10:00Z",
+    "thread_id": "thread-darkmode"
+  },
+  {
+    "id": "msg-bug-002@example.com",
+    "from": "another@example.com",
+    "subject": "Login page broken after update",
+    "body": "After the latest update, I cannot log in. The page shows an error: 'Authentication failed: session token invalid'. Cleared cache, tried incognito, still broken.\n\nPlease help.",
+    "date": "2026-09-07T08:15:00Z",
+    "thread_id": "thread-login-broken"
+  }
+]

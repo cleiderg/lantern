@@ -1,0 +1,5 @@
+{"timestamp":"2026-09-07T16:30:00.000Z","messageType":"Fault","eventMessage":"Worker crashed: unable to connect to database after 3 retries","subsystem":"com.myapp","category":"worker"}
+{"timestamp":"2026-09-07T16:30:05.000Z","messageType":"Default","eventMessage":"Request processed successfully in 12ms","subsystem":"com.myapp","category":"api"}
+{"timestamp":"2026-09-07T16:30:10.000Z","messageType":"Error","eventMessage":"Sync failed: timeout waiting for upstream response","subsystem":"com.myapp","category":"sync"}
+{"timestamp":"2026-09-07T16:30:15.000Z","messageType":"Default","eventMessage":"Health check passed","subsystem":"com.myapp","category":"health"}
+{"timestamp":"2026-09-07T15:00:00.000Z","messageType":"Fault","eventMessage":"This entry is outside the window and must not be picked up","subsystem":"com.myapp","category":"worker"}

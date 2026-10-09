@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.421" tests="18" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="processUpdateOwnerFormUnchangedSuccess" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.039">
+    
+  </testcase>
+  <testcase name="showOwner" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.038"/>
+  <testcase name="processFindFormWithWhitespaceOnlyLastNameReturnsAllOwners" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.016"/>
+  <testcase name="processCreationFormRejectsCityLongerThanColumn" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.024"/>
+  <testcase name="processUpdateOwnerFormSuccess" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.004"/>
+  <testcase name="processUpdateOwnerFormWithIdMismatch" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.003"/>
+  <testcase name="processFindFormRedirectsOutOfBoundsPageToFirstPage" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.003"/>
+  <testcase name="processCreationFormSuccess" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.004"/>
+  <testcase name="processFindFormIgnoresSurroundingWhitespace" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.005"/>
+  <testcase name="processFindFormSuccess" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.006"/>
+  <testcase name="processUpdateOwnerFormHasErrors" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.01"/>
+  <testcase name="initUpdateOwnerForm" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.008"/>
+  <testcase name="processFindFormNoOwnersFound" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.009"/>
+  <testcase name="processFindFormByLastName" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.002"/>
+  <testcase name="initCreationForm" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.006"/>
+  <testcase name="processCreationFormHasErrors" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.009"/>
+  <testcase name="initFindForm" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.005"/>
+  <testcase name="processCreationFormRejectsAddressLongerThanColumn" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.006"/>
+</testsuite>

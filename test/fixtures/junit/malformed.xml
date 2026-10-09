@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<testsuite name="broken"><testcase name="a" classname="X" time="0.1"><failure message="x">
