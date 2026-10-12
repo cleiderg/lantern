@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/media/lantern-ui-dark.gif">
+  <img alt="Lantern's local dashboard: triage, a bug fixed by an agent, its transcript, pulses and search" src="docs/media/lantern-ui-light.gif">
+</picture>
+
 # Lantern
 
 A local heartbeat orchestrator. A daemon wakes on a schedule, runs a standing
